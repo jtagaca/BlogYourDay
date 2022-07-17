@@ -1,0 +1,302 @@
+/*make a class to center the children of the parent div */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 10%;
+  background-color: aliceblue;
+  margin-bottom: 10px;
+}
+
+.logo {
+  margin-right: auto;
+  color: aliceblue;
+  background-color: #3cbfe7;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+}
+
+.nav__links a,
+.cta,
+.overlay__content a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: aliceblue;
+  background-color: #3cbfe7;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.nav__links li {
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: black;
+}
+
+.cta {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: #3cbfe7;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.cta:hover {
+  background-color: black;
+}
+
+/* Mobile Nav */
+
+.menu {
+  display: none;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: #24252a;
+  overflow-x: hidden;
+  transition: all 0.5s ease 0s;
+}
+
+.overlay--active {
+  width: 100%;
+}
+
+.overlay__content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay a {
+  padding: 15px;
+  margin: 5px;
+  font-size: 36px;
+  display: block;
+  transition: all 0.3s ease 0s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: black;
+}
+.overlay .close {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  color: #edf0f1;
+  cursor: pointer;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .close {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .nav__links,
+  .cta {
+    display: none;
+  }
+  .menu {
+    display: initial;
+  }
+}
+s .centerHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.styleLogin {
+  padding: 20%;
+  border: antiquewhite;
+  background-color: aliceblue;
+  border-radius: 20%;
+  font-size: 25px;
+}
+
+/*make a class to center the children of the parent div */
+.center-vertical {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*make a class to center the children of the parent div */
+.center-horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+/*make a class to center the children of the parent div */
+.center-horizontal-vertical {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*make a class to center the children of the parent div */
+.center-horizontal-vertical-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*make a class to center the children of the parent div */
+.center-horizontal-vertical-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*make a class to center the children of the parent div */
+.center-horizontal-vertical-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*make a class to center the children of the parent div */
+.center-horizontal-vertical-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*make a class to center the children of the parent div */
+.center-horizontal-vertical-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*make a class to center the children of the
+
+
+
+/* make the html and body have a background of light blue */
+html,
+body {
+  background-color: #3cbfe7;
+}
+
+textarea.form-control {
+  height: 200px;
+}
+
+/* put something at the bottom right of the div parent*/
+
+.bottom-right {
+  margin: 0 auto;
+  /* margin-left: 30px; */
+  text-align: right;
+  width: 100%;
+}
+
+.btnColor {
+  background-color: #3cbfe7;
+  font-size: 40px;
+  border-radius: 10%;
+}
+
+.formStyle {
+  border: aliceblue;
+  background: aliceblue;
+  padding: 20%;
+  margin: 20px;
+  border-radius: 20%;
+}
+
+/* make a div that has 20% padding and 20% margin */
+
+.outer {
+  padding: 20px;
+  padding-top: 100px;
+  margin: 20px;
+}
+
+/* make a class horizontally centered div  */
+.horizontally-centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*make a class that verticaly and horizontally align center children  */
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* button class that has 20% padding in all directions  */
+.btnStyle {
+  padding: 200px;
+  border-radius: 40%;
+  background-color: aliceblue;
+  color: black;
+  /* make font size 100px */
+  font-size: 100px;
+}
+
+/* make a class that makes the div full width */
+.full-width {
+  width: 100%;
+}
+
+/* make a class that has a border with radius of 40% */
+.bdrRadius {
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10%;
+  background-color: aliceblue;
+  color: black;
+  /* add a rainbow effect  */
+  animation: rainbow 1s infinite;
+}
