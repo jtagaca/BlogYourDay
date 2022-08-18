@@ -5,7 +5,7 @@ Blog Your Day is a simple blog application written in PHP this aims to help you 
 
 ## Context
 
-This full-stack project that uses PHP For the front end as well as it's backend, it uses MySQL for the database and data persistence. This was one of the project that I built for a course in web development. This uses sessions as well as cookies to store the user's session. This removes the need for the user to login everytime they visit the site as well as adds security in case someone hijacks the session.
+This full-stack project that uses PHP for the front end as well as it's backend, it uses MySQL for the database and data persistence. This was one of the project that I built for a course in web development. This uses sessions as well as cookies to store the user's session. This removes the need for the user to login everytime they visit the site as well as adds security in case someone hijacks the session.
 
 ## Test the site?
 
