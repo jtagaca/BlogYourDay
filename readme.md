@@ -14,7 +14,7 @@ This full-stack project that uses PHP For the front end as well as it's backend,
 <p align="center" width="100%">
 <img
       src="https://jtagaca.live/images/BlogYourDay4.gif"
-      height=540px width=1080px
+      height=540px 
    />
       </p>
 
